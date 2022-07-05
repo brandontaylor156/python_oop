@@ -2,8 +2,8 @@ class Player:
     @classmethod
     def get_team(cls, team_list):
         new_team = []
-        for index in range(len(team_list)):
-            new_team.append(Player(players[index]))
+        for player in team_list:
+            new_team.append(Player(player))
         return new_team
 
     def __init__(self, playerInfo):
@@ -73,7 +73,9 @@ playerKevin = Player(kevin)
 playerJason = Player(jason)
 playerKyrie = Player(kyrie)
 
-for index in range(len(players)):
-    new_team.append(Player(players[index]))
+for player in players:
+    new_team.append(Player(player))
 
 newerTeam = Player.get_team(players)
+
+print(new_team)
