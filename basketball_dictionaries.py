@@ -43,10 +43,10 @@ players = [
     	"team": "Philidelphia 76ers"
     },
     {
-    	"name": "", 
-    	"age":16, 
-    	"position": "P", 
-    	"team": "en"
+    	"name": "Demar Derozan", 
+    	"age":32, 
+    	"position": "Shooting Guard", 
+    	"team": "Chicago Bulls"
     }
 ]
 
